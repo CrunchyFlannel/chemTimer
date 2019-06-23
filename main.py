@@ -1,7 +1,7 @@
 import math
 #this is for python only ^^
 
-#inputs listed as follows: current hour, current minute, delta \/
+
 
 #in python 'def' means "function" \/
 
@@ -23,6 +23,7 @@ def chemTimer(currentHour, currentMinute, delta):
 	print("Minute Hand = " + str(minuteHand))
 
 #This calls the function, try any inputs you would like it works everytime. Also the problem states you may have problems in matlab if the delta input is negative. If you do have problems just remember you can multiply the inputs by -1 to flip the sign.\/\/
+#inputs listed as follows: current hour, current minute, delta \/
 chemTimer(6, 45, 10)
 
 #hopefully this code isnt to hard to translate back, I tried to explain it as best I could lol
